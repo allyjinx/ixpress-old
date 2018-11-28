@@ -1,0 +1,32 @@
+.body{
+	background: url("../../XWEZ33x.jpg");
+}
+h2.card__title--custom,
+h3.card__title--custom
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.card--custom{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.button--signup,
+.button--login {
+	width: 25%;
+	margin: 0 auto;
+	display: block;
+	background: #B0AAFF;
+	padding: 5px 2px 7px 10px;
+	border: 1px solid white;
+}
+
+.button--facebook,
+.button--google {
+	margin: 0 auto;
+	display: block;
+	
+}
