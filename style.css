@@ -1,6 +1,3 @@
-.body{
-	background: url("../../XWEZ33x.jpg");
-}
 h2.card__title--custom,
 h3.card__title--custom
 {
@@ -19,7 +16,7 @@ h3.card__title--custom
 	width: 25%;
 	margin: 0 auto;
 	display: block;
-	background: #B0AAFF;
+	background: #000000;
 	padding: 5px 2px 7px 10px;
 	border: 1px solid white;
 }
@@ -28,5 +25,14 @@ h3.card__title--custom
 .button--google {
 	margin: 0 auto;
 	display: block;
-	
+}
+
+.card--customA{
+	margin: 0 auto;
+	height: 300px;
+	width: 200px;
+}
+
+.card_content--cutom{
+	margin-bottom: 15px;
 }
