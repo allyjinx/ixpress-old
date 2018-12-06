@@ -18,16 +18,25 @@
 }
 
 
-h2.card__title--custom
-{
+h2.card__title--custom{
 	text-align: center;
 	margin-top: 0px;
 	display: block;
 	font-family: 'BreeSerif-Regular', serif;
 	font-size: 45px;
-
-
 }
+
+h2.tiny_text {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 100px;
+	display: block;
+	font-family: 'BreeSerif-Regular', serif;
+	font-size: 20px;
+}
+
+
 h3.card__title--custom2{
 	text-align: center;
 	display: block;
@@ -45,20 +54,19 @@ h3.card__title--custom2{
   margin-bottom: 15px;
 }
 
-.card--customA{
+.card--custom_A{
   height: 300px;
   background-image: url("../images/goodday.png"); ;
   background-position: center;
   margin-bottom: 15px;
 }
 
-.button--signup {
+.button--signin {
 	width: 400px;
-	height: 200px;
 	margin: 30px auto 30px auto;
 	display: block;
 	background: #D5DEE8;
-	padding: 90px 10px 10px 10px;
+	padding: 50px 10px 50px 10px;
 	border: 15px #D5DEE8;
 	color: #FF2A67;
 	font-family: 'BreeSerif-Regular', serif;
@@ -66,17 +74,9 @@ h3.card__title--custom2{
 
 }
 .button--login {
-	width: 400px;
-  height: 200px;
-	margin: 30px auto 30px auto;
-	display: block;
-	background: #D5DEE8;
-	padding: 90px 10px 10px 10px;
-	border: 15px #D5DEE8;
-	color: #FF2A67;
-  font-family: 'BreeSerif-Regular', serif;
-  font-size: 30px;
+	padding: 15px
 }
+
 .logoimage {
 	margin-top: 30px;
 	margin-left: auto;
