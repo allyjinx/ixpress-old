@@ -156,10 +156,12 @@ color: black !important;
 	font-size: 30px;
 }
 
-h2.card--custom_A{
+h2.card_title--custom_A{
 	margin: 0 auto;
 	height: 300px;
 	width: 200px;
   font-family: 'BreeSerif-Regular', serif;
 	font-size: 15px;
+  text-shadow: 0 0 2px black;
+  color: white;
 }
