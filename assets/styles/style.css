@@ -52,7 +52,6 @@ h2.subtitle{
 	font-family: 'BreeSerif-Regular', serif;
 	font-size: 15px;
 	margin: 2px 0px 0px 0px;
-  	/*padding-top: 30px;*/
 
 }
 
@@ -79,17 +78,16 @@ h2.subtitle{
 	color: black;
 	font-family: 'BreeSerif-Regular', serif;
 	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	text-transform: lowercase;
-	box-shadow: 0px 8px;
 
 }
 .button--signup{
-	border-radius: 50px;
 }
 .button--login {
 	padding: 15px;
 	border-color: black;
-	border-radius: 25px;
 }
 
 .logoimage {
@@ -105,10 +103,18 @@ h2.subtitle{
 	margin-bottom: 0px;
 }
 
-h2.page1_h2{
+h2.title--form{
   text-align: center;
   font-family: 'BreeSerif-Regular', serif;
   font-size: 30px;
+}
+
+h2.subtitle--form{
+	text-align: center;
+	display: block;
+	font-family: 'BreeSerif-Regular', serif;
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
 }
 
 .button--social {
