@@ -62,6 +62,11 @@ h2.subtitle{
   	margin-bottom: 15px;
 }
 
+h2.location_card--title{
+	font-family: 'BreeSerif-Regular', serif;
+	font-size: 20px;
+}
+
 .button--signin {
 	width: 400px;
 	margin: 30px auto 30px auto;
@@ -94,6 +99,10 @@ h2.subtitle{
 	padding-left: 10px;
 	padding-bottom: 5px;
 	margin-bottom: 0px;
+}
+
+.star_rating{
+
 }
 
 h2.title--form{
@@ -168,6 +177,7 @@ color: black !important;
 	color: #FF2A67;
 	font-family: 'BreeSerif-Regular', serif;
 	font-size: 30px;
+	text-transform: lowercase;
 }
 
 .profile--card{
@@ -184,20 +194,18 @@ color: black !important;
 
 h2.profile--desc{
 	font-size: 20px;
+	width: 500px;
+	background-color: #FF2A67;
+	margin-top: 0;
 }
-h2.profile--title{
+h1.profile--title{
 	font-size: 50px;
-}
-h2.profile--rating{
-	font-size: 50px;
-}
-h2.profile--rating{
-	font-size: 20px;
+	margin-bottom: 0;
 }
 
+
 h2.profile--desc, 
-h2.profile--title,   
-h2.profile--rating{
+h1.profile--title   {
 	font-family: 'BreeSerif-Regular', serif;
   	text-shadow: 0 0 20px black;
   	color: white;
@@ -207,4 +215,11 @@ h2.profile--rating{
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	font-family: 'BreeSerif-Regular', serif;
+  	text-shadow: 0 0 20px black;
+  	color: white;
+
+}
+.checked {
+	color: #FFE808;
 }
