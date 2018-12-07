@@ -227,12 +227,35 @@ h2.profile--rating{
   width: 100%;
 }
 
-.u_profile--card{
-  position: relative;
-  height: 100px;
+.u_profile--card-u{
+  height: 150px;
   width: 400px;
-  background color: #EEEFFF;
+  background-color: red;
+  display: inline-block;
+  padding-right:0;
+  margin-right:0;
+}
 
+.u_profile--card-credits{
+  height: 150px;
+  width: 200px;
+  background-color: white;
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 0;
+
+}
+
+.u_profile--tabs{
+	width: 600px;
+	margin-left: 6px;
+}
+
+.userprofile_list{
+	width: 590px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
 .welcome--card{
 	height: 500px; 
 	width: 300px;
