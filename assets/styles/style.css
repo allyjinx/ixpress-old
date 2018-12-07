@@ -52,9 +52,15 @@ h2.subtitle{
 	font-family: 'BreeSerif-Regular', serif;
 	font-size: 15px;
 	margin: 2px 0px 0px 0px;
-
 }
-
+ 
+h3.welcome--subtitle{
+	text-align: center;
+	margin: 0px;
+	display: block;
+	font-family: 'BreeSerif-Regular', serif;
+	font-size: 20px;
+}
 .card--custom{
 	height: 300px;
 	background-image: url("../images/image1.png"); ;
@@ -224,5 +230,27 @@ h2.profile--rating{
 .u_profile--card{
   position: relative;
   height: 200px;
+  background-color: #FF2A67;
 
+}
+
+.welcome--card{
+	height: 500px; 
+	width: 300px;
+	padding: 1px 0 0 0;
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+	position: relative;
+}
+
+.welcome--card_text{
+	position: absolute;
+	bottom: 0;
+}
+
+.welcome--image_card{
+	height: 300px;
+	background-image: url("../images/boutiquesalon.jpg");
+	padding-top: 20px;
 }
