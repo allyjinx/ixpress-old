@@ -204,7 +204,7 @@ h1.profile--title{
 }
 
 h2.profile--desc,
-h2.profile--title,
+h1.profile--title,
 h2.profile--rating{
 	font-family: 'BreeSerif-Regular', serif;
   	text-shadow: 0 0 30px black;
