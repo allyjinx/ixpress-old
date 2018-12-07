@@ -223,6 +223,7 @@ h2.profile--rating{
 
 .u_profile--card{
   position: relative;
-  height: 200px;
-
+  height: 100px;
+  width: 400px;
+  background color: #EEEFFF;
 }
