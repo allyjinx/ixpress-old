@@ -126,24 +126,30 @@ h2.subtitle--form{
 }
 
 .button--social {
-  display: inline;
+  display: inline-block;
   width: 100px;
   height:100px;
   background-color: #FF2A67;
-  border: 15px #D5DEE8;
-  position: relative;
+  /* position: relative; */
+  margin: 5px;
+  color: black;
+}
+.button--homepage {
+  display: inline-block;
+  width: 35%;
+  height: 159px;
+  background-color: #FF2A67;
+  /* position: relative; */
   margin: 5px;
   color: black;
 }
 
 .social_buttons{
-  display: inline;
-  margin: auto;
 }
 
 .social_buttons_inner{
-  width: 250px;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .center_element{
@@ -279,4 +285,25 @@ h2.profile--rating{
 
 .dailydeals{
   text-align: center;
+}
+
+.homepage-icons{
+  width: 200px;
+
+}
+.logo_header{
+  padding-bottom: 60px;
+}
+
+.homepage_search{
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.homepage{
+  font-family: 'BreeSerif-Regular', serif;
+}
+
+.homepage_search h2{
+  font-family: 'BreeSerif-Regular', serif;
 }
