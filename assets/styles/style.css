@@ -312,3 +312,8 @@ h2.profile--rating{
   background-image: url("../images/nails.jpg");
   background-size: cover;
 }
+
+.button--homepage_eyelash{
+  background-image: url("../images/eyelash.jpg");
+  background-size:cover;
+}
