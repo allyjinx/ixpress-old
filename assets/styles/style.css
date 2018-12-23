@@ -308,6 +308,7 @@ h2.profile--rating{
   font-family: 'BreeSerif-Regular', serif;
 }
 
-.homepage_nails{
+.button--homepage_nails{
   background-image: url("../images/nails.jpg");
+  background-size: cover;
 }
