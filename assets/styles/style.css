@@ -282,7 +282,12 @@ h2.profile--rating{
 	background-image: url("../images/boutiquesalon.jpg");
 	padding-top: 20px;
 }
-
+.welcome--image_cardA{
+  height: 300px;
+  background-image: url("../images/maps.jpg");
+  padding-top: 20px;
+  background-size: cover;
+}
 .dailydeals{
   text-align: center;
 }
@@ -327,3 +332,7 @@ h2.profile--rating{
   background-image: url("../images/misc.jpg");
   background-size: cover;
 }
+/*
+.card_welcome--image_card{
+  padding-bottom: 300px;
+} */
