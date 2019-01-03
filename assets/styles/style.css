@@ -317,3 +317,13 @@ h2.profile--rating{
   background-image: url("../images/eyelash.jpg");
   background-size: cover;
 }
+
+.button--homepage_hair{
+  background-image: url("../images/hair.jpg");
+  background-size: cover;
+}
+
+.button--homepage_misc{
+  background-image: url("../images/misc.jpg");
+  background-size: cover;
+}
