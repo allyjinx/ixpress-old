@@ -13,7 +13,9 @@
 </head>
 
 <body>
-  <ons-page>
+  <ons-navigator swipeable id="myNavigator" page="ixpress.page0.html"></ons-navigator>
+  <template id="ixpress.page0.html">
+  <ons-page id="page0">
     <div>
       <div class="card card--custom">
         <img class="logoimage" src="assets/images/logotrans.png">
@@ -23,13 +25,90 @@
     </div>
 
   <div>
-    <ons-button id="myButton" class="button--large--cta button--signin button--signup">sign up</ons-button>
+    <ons-button id="push-button" class="button--large--cta button--signin button--signup">sign up</ons-button>
 
       <h2 class="tiny_text">already a member?</h2>
 
     <ons-button class="button--large--cta button--signin button--login">log in</ons-button>
     </ons-page>
-  </div>
+  </template>
+
+
+
+  <template id="ixpress.newuser.html">
+    <ons-page id="newuser">
+      <div>
+        <div class="card card--custom">
+          <img class="logoimage" src="assets/images/logotrans.png">
+          <h2 class="title">ixpress</h2>
+          <h2 class="subtitle">the beauty membership</h2>
+        </div>
+      </div>
+
+        <h2 class="title--form">join ixpress</h2>
+
+      <div class="social_buttons">
+        <div class="social_buttons_inner">
+          <button class="button--cta button--social button--facebook">
+          <i class="tabbar__icon tabbar--material__icon zmdi zmdi-facebook"></i>Facebook</button>
+          <button class="button--cta button--social button--google">
+          <i class="tabbar__icon tabbar--material__icon zmdi zmdi-google"></i>Google</button>
+        </div>
+      </div>
+
+        <h2 class="subtitle--form">...or sign up here!</h2>
+
+      <span class="center_element">
+        <div><input class="text-input text-input--material" placeholder="First Name" type="text" required></div>
+        <br />
+        <div><input class="text-input text-input--material" placeholder="Last Name" type="text" required></div>
+        <br />
+        <div><input class="text-input text-input--material" placeholder="Email Address" type="text" required></div>
+        <br />
+        <div><input class="text-input text-input--material" placeholder="Password" type="password" required></div>
+        <br />
+        <div><input class="text-input text-input--material" placeholder="Confirm Password" type="password" required></div>
+      </span>
+
+        <ons-button id="push-button" class="button--large--cta button--next">thank u, next</ons-button>
+
+    </ons-page>
+  </template>
+
+
+
+
+
+  <template id="ixpress.userlogin.html">
+    <ons-page id="userlogin">
+
+      <div class="card card--custom">
+        <img class="logoimage" src="assets/images/logotrans.png">
+        <h2 class="title">ixpress</h2>
+        <h2 class="subtitle">the beauty membership</h2>
+      </div>
+
+      <div class="social_buttons">
+        <div class="social_buttons_inner">
+
+          <button class="button--cta button--social">
+          <i class="tabbar__icon tabbar--material__icon zmdi zmdi-facebook"></i>Facebook</button>
+          <button class="button--cta button--social">
+          <i class="tabbar__icon tabbar--material__icon zmdi zmdi-google"></i>Google</button>
+    
+        </div>
+      </div>
+
+      <span class="center_element">
+        <div><input class="text-input text-input--material" placeholder="Username" type="text" required></div>
+        <br />
+        <div><input class="text-input text-input--material" placeholder="Password" type="password" required></div>
+      </span>
+
+      <ons-button class="button--large--cta button--next">thank u, next</ons-button>
+  
+    </ons-page>
+  </template>
 
 
 </body>
