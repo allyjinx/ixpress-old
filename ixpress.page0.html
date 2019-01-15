@@ -9,20 +9,21 @@
   <link rel="stylesheet" href="./assets/styles/style.css">
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <title>ixpress page 0</title>
+  <script src="js/redirect.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <ons-page>
-    <div>
-      <div class="card card--custom">
-        <img class="logoimage" src="assets/images/logotrans.png">
-        <h2 class="title">ixpress</h2>
-        <h2 class="subtitle">the beauty membership</h3>
-      </div>
+  <script src="js/script.js"></script>
+   <ons-page>
+    <div class="card card--custom">
+      <img class="logoimage" src="assets/images/logotrans.png">
+      <h2 class="title">ixpress</h2>
+      <h2 class="subtitle">the beauty membership</h2>
     </div>
 
+
   <div>
-    <ons-button class="button--large--cta button--signin button--signup">sign up</ons-button>
+    <ons-button id="12" onlick="redirect()" class="button--large--cta button--signin button--signup">sign up</ons-button>
 
       <h2 class="tiny_text">already a member?</h2>
 
