@@ -10,47 +10,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <script type="javascript" href="./assets/styles/javascript.js"></script>
-  <title>ixpress homepage</title>
+  <title>ixpress calendar</title>
 </head>
 
 <body>
-  <ons-page>
+  <!-- <template id="calendar.html"> -->
+  <ons-page id="calendar">
 
-  <!-- <div class="logo_header">
-    <img class="logoimage" src="assets/images/logotrans.png">
-  </div> -->
-  <div class="card card--custom">
-    <img class="logoimage" src="assets/images/logotrans.png">
-    <h2 class="title">ixpress</h2>
-    <h2 class="subtitle">the beauty membership</h3>
-  </div>
-
-<div class="homepage_search">
-  <h2> search for anything here!</h2>
-  <input type="search" value="" placeholder="Search" class="search-input">
-  <h2> or browse by service type</h2>
-</div>
-
-    <div class="social_buttons_inner">
-    <button class="button--cta button--homepage button--homepage_nails">
-      <i class="tabbar__icon tabbar--material__icon fa fa-hand-peace-o zmdi-thumb-up"></i>Nails</button>
-    <button class="button--cta button--homepage button--homepage_hair">
-      <i class="tabbar__icon tabbar--material__icon fa fa-scissors"></i>Hair</button>
-    <button class="button--cta button--homepage button--homepage_eyelash">
-      <i class="tabbar__icon tabbar--material__icon fa fa-eye"></i>Eyelash</button>
-    <button class="button--cta button--homepage button--homepage_misc">
-      <i class="tabbar__icon tabbar--material__icon fa fa-cogs"></i>Misc</button>
-    </div>
-
-
-
-<ons-button class="button--large--cta button--next">daily deals</ons-button>
-
+<img class="calendar" src="assets/images/calendar.jpg">
 
 <ons-bottom-toolbar>
     <div class="tabbar tabbar--material">
   <label class="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-a" checked="checked">
+    <input type="radio" name="tabbar-material-a">
     <button class="tabbar__button tabbar--material__button">
       <i class="tabbar__icon tabbar--material__icon fas fa-home"></i>
       <div class="tabbar__label">Home</div>
@@ -67,7 +39,7 @@
   </label>
 
   <label class="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-a">
+    <input type="radio" name="tabbar-material-a" checked="checked">
     <button class="tabbar__button tabbar--material__button">
       <i class="tabbar__icon tabbar--material__icon far fa-calendar-alt"></i>
       <div class="tabbar__label">Appointments</div>
@@ -87,5 +59,5 @@
 
 
   </ons-page>
-
+  <!-- </template> -->
 </body>

@@ -288,9 +288,7 @@ h2.profile--rating{
   padding-top: 20px;
   background-size: cover;
 }
-.dailydeals{
-  text-align: center;
-}
+
 
 .homepage-icons{
   width: 200px;
@@ -331,4 +329,10 @@ h2.profile--rating{
 .button--homepage_misc{
   background-image: url("../images/misc.jpg");
   background-size: cover;
+}
+.calendar{
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
 }
